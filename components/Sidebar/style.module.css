@@ -1,0 +1,10 @@
+.sidebarContainer{
+    margin-top: 21px;
+}
+
+.sidebarHeading {
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 21px;
+    font-weight: 700;
+    padding-left: 10px;
+}

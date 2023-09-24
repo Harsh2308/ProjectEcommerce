@@ -1,0 +1,33 @@
+/* styles/Breadcrumb.module.css */
+
+.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #939393;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li + li::before {
+  padding: 8px;
+  color: #939393;
+  content: "/\00a0";
+}
+
+.circle{
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+

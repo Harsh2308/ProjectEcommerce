@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .cardRow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  @media (max-width: 750px) {
+    .cardRow {
+      grid-template-columns: repeat(2, 1fr); /* Display 2 cards in one row */
+    }
+  }
+  @media (max-width: 375px) {
+    .cardRow {
+      grid-template-columns: repeat(1, 1fr); /* Display 1 cards in one row */
+    }
+  }

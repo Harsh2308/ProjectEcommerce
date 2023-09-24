@@ -1,0 +1,25 @@
+.materialFilterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.materialName {
+    margin-left: 9px;
+}
+.moreItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.count{
+    color: #939393;
+}

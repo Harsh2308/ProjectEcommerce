@@ -1,0 +1,37 @@
+.colorFilterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+.circelShape{
+    height: 12px;
+    width: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 50%;
+    position: relative;
+}
+.circelShape img {
+    z-index: 999;
+}
+.colorName {
+    margin-left: 9px;
+}
+.moreItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.count{
+    color: #939393;
+}
